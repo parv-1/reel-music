@@ -1,0 +1,10 @@
+.header {
+  position: sticky; top: 0; z-index: 50;
+  backdrop-filter: saturate(140%) blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.brand {
+  display: flex; align-items: center; gap: 10px;
+  font-weight: 800; letter-spacing: .4px;
+}
+.links { display: flex; align-items: center; gap: 16px; }
